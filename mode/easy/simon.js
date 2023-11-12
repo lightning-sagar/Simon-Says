@@ -17,10 +17,11 @@ document.addEventListener("keypress",function(){
     if (started == false){
         started=true;
         levelup();
+        document.querySelector(".start").style.display = "none";
     }
 })
 
-
++
 function btnflash(btns){
     btns.classList.add("flash");
     setTimeout(function(){
