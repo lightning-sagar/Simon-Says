@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simon Says</title>
-    <link rel="stylesheet" href="simon1.css">
-    <style>body {
+body {
     text-align: center;
     font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
@@ -63,7 +56,7 @@ a:hover {
     transform: scale(0.95);
 }
 
-/* Button Colors */
+
 .yellow {
     background-color: #f99b45;
 }
@@ -143,30 +136,3 @@ h3 {
         font-size: 12px;
     }
 }
-
-    </style>
-</head>
-<body>
-    <div class="pic">
-        <h1>SIMON SAYS</h1>
-        <h2>Select Your MODE</h2>
-        <img src="/img/pic.png" alt="">
-    </div>
-
-    <div class="main" id="easy">
-        <a href="/mode/easy/simon.html">EASY</a>
-    </div>
-    <div class="main" id="medium">
-        <a href="/mode/medium/simon-me.html">MEDIUM</a>
-    </div>
-    <div class="main" id="hard">
-        <a href="/mode/hard/simon-hard.html">HARD</a>
-    </div>
-    <br>
-    <div class="main" id="help">
-        <a href="/mode/help/how_to_play_game.html">HOW TO PLAY GAME</a>
-    </div>
-
-    <script src="simon1.js"></script>
-</body>
-</html>
