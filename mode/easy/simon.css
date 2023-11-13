@@ -56,7 +56,7 @@ a:hover {
     transform: scale(0.95);
 }
 
-/* Button Colors */
+
 .yellow {
     background-color: #f99b45;
 }
@@ -128,11 +128,36 @@ h3 {
     color: red;
 }
 
+.press {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 50px; /* Adjust the height as needed */
+    width: 100px; /* Adjust the width as needed */
+    font-size: 16px; /* Adjust the font size as needed */
+    margin: 20px auto; /* Adjust the margin as needed */
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.press:hover {
+    background-color: #45a049;
+}
 
 @media only screen and (max-width: 600px) {
     .btn {
         height: 120px;
         width: 120px;
         font-size: 12px;
+    }
+    .press {
+        display: flex;
+    }
+    h2{
+        display: none;
     }
 }
